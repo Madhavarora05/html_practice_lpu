@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" text="text/css" href="practice-2.css">
+</head>
+
+<body>
+    <form action="file.js">
+        <div class="dropdown">
+            Choose:
+            <select name="dropdown">
+                <option value="1">1st value</option>
+                <option value="2">2nd value</option>
+                <option value="3" selected>3rd value</option>
+                <option value="4">4th value</option>
+                <option value="5">5th value</option>
+            </select>
+        </div>
+        <div class="m">
+            Name: <input type="text">
+        </div>
+        <div class="m">
+            ID:<input type="text">
+        </div>
+        <div class="m">
+            Email: <input type="text">
+        </div>
+        <div class="m">
+            Password: <input type="password">
+        </div>
+        <div class="m">
+            DOB: <input type="datetime-local">
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="Gender">
+            Female<input type="radio" name="Gender">
+            Other<input type="radio" name="Gender">
+        </div>
+        <div class="number">
+            Number:<input type="number">
+        </div>
+
+        <div class="Description">
+            Description: <textarea name="D" id="m" cols="100" rows="30"></textarea>
+        </div>
+        <div class="number">
+            Anger: 0<input type="range">10
+        </div>
+        <div class="number">
+            Happiness: 0<input type="range">10
+        </div>
+        <div>
+            <input type="Submit" class="search-btn" value="Search">
+            <input type="reset" class="search-btn" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
